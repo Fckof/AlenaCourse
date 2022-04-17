@@ -59,7 +59,7 @@ $(".DTP").click(function () {
 				<th scope="col">Пострадало, чел</th>
 				<th scope="col">Погибло, чел</th>
 				<th scope="col">Описание</th>
-				<th scope="col">ID_следователя</th>
+				<th scope="col">ID_лиц_проводившего_расслед</th>
 			  </tr>
 			</thead>
 			<tbody class="tbody">
@@ -73,7 +73,7 @@ $(".DTP").click(function () {
 				<td scope="col">${el.Пострадало}</td>
 				<td scope="col">${el.Погибло}</td>
 				<td scope="col">${el.Описание}</td>
-				<td scope="col">${el.ID_следователя}</td>
+				<td scope="col">${el.ID_лиц_проводившего_расслед}</td>
 				</tr>
 				`);
 			});
