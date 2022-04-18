@@ -140,8 +140,13 @@ if (!isset($_SESSION["user"])) {
 		
 
 		<div class="main p-2 mt-4 me-3 ms-3">
-			<h1>Добро пожаловать на сайт</h1>
-
+			<h1 class="m-5">Добро пожаловать на сайт</h1>
+			<h2 class="m-4">Чтобы начать просмотр данных выберите категорию в меню</h2>
+			
+			<div class="spinner-border m-5" style="width: 15rem; height: 15rem;" role="status">
+	<span class="visually-hidden">Загрузка...</span>
+  </div>
+  <h1 class="m-4">Для расширенных возможностей авторизуйтесь</h1>
 		</div>
 	</div>
 
